@@ -189,7 +189,7 @@ public class FXController {
             alert.setTitle("Внимание");
             alert.showAndWait();
         } else if (field.isEmpty()) {
-            Alert alert = new Alert(Alert.AlertType.NONE, "Пустая доска.", ButtonType.OK);
+            Alert alert = new Alert(Alert.AlertType.NONE, "Пустое поле.", ButtonType.OK);
             alert.setTitle("Ошибка");
             alert.showAndWait();
         } else if (field.solveSudoku()) {
